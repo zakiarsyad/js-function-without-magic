@@ -16,3 +16,4 @@ function pop(arr) {
 var array = [0, 1, 2, 3, 4];
 
 console.log(pop(array));
+console.log(array);

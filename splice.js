@@ -4,7 +4,7 @@ function splice(arr, a, b, ...rest) {
 
   for (var i = 0; i < arr.length; i++) {
     // lompati data yang dihapus
-    if (arr[i] >= a && arr[i] < a + b) {
+    if (i >= a && i < a + b) {
       continue;
     }
 
@@ -24,6 +24,6 @@ function splice(arr, a, b, ...rest) {
   return newArr;
 }
 
-var array = [0, 1, 2, 3, 4];
+var array = [0, 8, 2, 3, 4];
 
 console.log(splice(array, 1, 1, "tambah1", "tambah2"));
