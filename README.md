@@ -1,3 +1,3 @@
 # js-function-without-magic
 
-This is my reposiroty for basic javascript function that is created using only if-else and for and no build-infunction
+This is my reposiroty for basic javascript function that is created using only if-else and for with no build-infunction
